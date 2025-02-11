@@ -1,0 +1,39 @@
+body{
+    background-color: saddlebrown;
+}
+
+.fields{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    justify-content: center;
+}
+
+.size {
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size:hover::after {
+    content: attr(data-hover);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+}
+
+
+.box{
+    text-align: center;
+    height: 10rem;
+}
+
+.hover{
+    opacity: 0%;
+
+}
+
