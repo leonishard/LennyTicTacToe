@@ -14,4 +14,4 @@ To start the bundle process, run `npm run build`. This will create a `build` fol
 If you want to run the bundle process in watch mode, run `npm run build:watch`.
 
 ## Viewing the HTML files
-To view the HTML files, open the `build` folder and open the desired HTML file in a browser. E.g., by right-clicking the file and selecting "Open with" and then your browser of choice.
+To view the HTML files, open the `build` folder and open the desired HTML file in a browser. E.g., by right-clicking the file and selecting "Open with" and then your browser of choice.# LennyTicTacToe
